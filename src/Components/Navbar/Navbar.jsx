@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div
       className={`p-4 flex justify-between items-center shadow-sm ${
-        homeUrl === "/" ? "bg-[#9538E2] text-white" : "bg-white"
+        homeUrl === "/" ? "bg-[#9538E2] md:text-white" : "bg-white"
       }`}
     >
       <div className="navbar-start">
